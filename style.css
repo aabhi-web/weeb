@@ -1,0 +1,38 @@
+.a {
+    border-radius: 5px 0 0 5px;
+}
+
+.b{
+    border-radius: 0 5px 5px 0;
+}
+
+.q{
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.c{
+    background: #5263ff !important;
+}
+
+.list-group-item img{
+    width: 20px;
+    padding-right: 8px;
+}
+
+.box{
+    height: 270px;
+    overflow: hidden;
+}
+
+.box-c ,  .box img{
+   transition: 0.7s; 
+}
+
+.box:hover .box-c{
+    transform: translateY(-90px);
+}
+
+.box:hover img{
+    transform: scale(1.2);
+}
